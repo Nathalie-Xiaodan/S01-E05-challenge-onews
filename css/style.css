@@ -1,0 +1,197 @@
+.wrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction:row;
+}
+
+.left-column {
+    height: 100vh;
+    width:50%;
+    background-image: url("../images/student.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 25px; 
+}
+
+.right-column {
+    overflow-y:scroll;
+    color:#141414;
+    max-height:100vh;
+    width:50%;
+}
+
+/* ----------------------------------------
+----- colonne de gauche ----------------
+---------------------------------------- */
+.logo-titre{
+    display: flex;
+    background-image: url("../images/onews.svg");
+    background-size: 30px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.logo-titre h1{
+    width: 100px;
+    line-height: .8;
+    padding-left: 40px;
+}
+
+.left-column h1{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight:700;
+    font-size:30px;
+    font-variant: small-caps;            
+}
+
+.left-column img {
+    width:30px;
+}
+
+.left-column h2 {
+    color:white;
+    font-weight:700;
+    font-family: 'roboto' sans-serif;
+}
+
+.left-column h2 span.italic {
+    font-weight:300;
+    font-size: 0.5em;
+    font-style: italic;    
+}
+
+.text-left {
+    max-width: 50%;
+    text-align:right;
+    align-self: flex-end;
+}
+
+.left-column p {
+    color:white;
+    font-size:0.8em;
+    font-weight: 500;
+}
+
+nav {
+    color:white;
+    font-weight:700;
+    width: 50%;     
+    align-self: flex-end;   
+}
+
+.left-column li {
+    color:white;
+    font-weight:700;
+}
+
+.left-column ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration:none;
+}
+
+.left-column li {
+    list-style:none;
+}
+.left-column li > a  {
+    color: white;
+    font-size: 0.8em;
+}
+
+/* ----------------------------------------
+----- colonne de droite----------------
+---------------------------------------- */
+
+.right-column {
+    background-color: #f9f9f9;
+}
+
+header {
+    padding-left: 25px;
+    padding-top: 20px;
+    height: 80px;
+    font-family: 'Roboto' sans-serif;
+    vertical-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 50%;
+    padding: 25px;
+    border: solid 1px #eaeaea;
+    background-color: white;
+    height:400px;
+}
+
+.news {
+    font-size:0.7em;
+    color:white;
+    font-weight:700;
+    background-color: rgb(78, 197, 78);
+    padding:3px 5px;
+    border-radius:3px;
+}
+
+.work {
+    font-size:0.7em;
+    color:white;
+    font-weight:700;
+    background-color:rgb(21, 95, 243);
+    padding:3px 5px;
+    border-radius:3px;
+}
+
+.author {
+    margin: 15px auto;
+ }
+
+.author img {
+    width: 25px;
+    display: inline;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.date {
+    display: inline;    
+    font-family: 'roboto', sans-serif;
+    font-size: 0.8em;
+    color: #969494;
+}
+
+article a {
+    text-decoration: underline;
+    font-weight: 700;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s; 
+}
+
+article a:hover {
+    color: blue;
+}
+
+.team {
+    font-size: 0.7em;
+    color: white;
+    background-color: red;
+    padding: 3px 5px;
+    border-radius:3px;
+    font-weight:700;
+
+}   
+    
